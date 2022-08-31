@@ -1,0 +1,12 @@
+#!/bin/bash
+# programado en bash por fuf 4/7/2016
+# Actualizado 4/11/2020 para usar archey4
+
+clear
+archey4
+rojo="\x1b[1;31m"
+azulB="\x1b[1;34m"
+original="\x1b[0;0m"
+echo -e $azulB " "
+figlet -f big Piramide
+echo -e $original" "
