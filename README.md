@@ -35,3 +35,9 @@ sudo cp .local/bin/archey /usr/bin/archey4
 sudo cp extip /usr/bin/extip
 
 
+Install Programs
+
+sudo apt install figlet git neovim
+
+
+
