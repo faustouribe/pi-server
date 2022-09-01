@@ -1,3 +1,3 @@
-DCKDNSSUBDOMAIN="subdomain"
+DCKDNSDOMAIN="completedomain"
 TIMEZONE="America/Chicago"
 SERVERIP="192.168.1.x"
