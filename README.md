@@ -21,12 +21,12 @@ sudo pip3 install docker-compose
 sudo systemctl enable docker
 
 
-Install Tailscale
+## Install Tailscale
 
 https://tailscale.com/download/linux/rpi
 
 
-Install Archey4
+## Install Archey4
 
 pip install archey4
 
@@ -35,7 +35,7 @@ sudo cp .local/bin/archey /usr/bin/archey4
 sudo cp extip /usr/bin/extip
 
 
-Install Programs
+## Install Programs
 
 sudo apt install figlet git neovim
 
