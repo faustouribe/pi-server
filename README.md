@@ -4,6 +4,8 @@ Use RaspiLite 64bit
 ```
 sudo apt update && sudo apt dist-upgrade
 
+sudo apt install vim git
+
 Install Docker & Docker Compose
 
 curl -sSL https://get.docker.com | sh
