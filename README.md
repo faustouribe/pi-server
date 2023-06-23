@@ -4,7 +4,9 @@
 ```
 sudo apt update && sudo apt dist-upgrade
 
-sudo apt install vim git
+sudo apt install figlet git neovim
+
+git clone https://github.com/faustouribe/pi-server.git
 ```
 ## Install Docker & Docker Compose
 ```
@@ -36,10 +38,3 @@ sudo cp .local/bin/archey /usr/bin/archey4
 
 sudo cp extip /usr/bin/extip
 ```
-
-## Install Programs
-```
-sudo apt install figlet git neovim
-```
-
-
