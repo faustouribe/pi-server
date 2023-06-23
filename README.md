@@ -26,8 +26,9 @@ sudo systemctl enable docker
 ```
 
 ## Install Tailscale
-```
 https://tailscale.com/download/linux/rpi
+```
+curl -fsSL https://tailscale.com/install.sh | sh
 ```
 
 ## Install Archey4
