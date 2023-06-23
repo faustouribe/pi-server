@@ -1,5 +1,5 @@
 # Pi-Server
-
+```
 arm64
 
 sudo apt update && sudo apt dist-upgrade
@@ -19,25 +19,25 @@ sudo apt-get install -y python3 python3-pip
 sudo pip3 install docker-compose
 
 sudo systemctl enable docker
-
+```
 
 ## Install Tailscale
-
+```
 https://tailscale.com/download/linux/rpi
-
+```
 
 ## Install Archey4
-
+```
 pip install archey4
 
 sudo cp .local/bin/archey /usr/bin/archey4
 
 sudo cp extip /usr/bin/extip
-
+```
 
 ## Install Programs
-
+```
 sudo apt install figlet git neovim
-
+```
 
 
