@@ -1,13 +1,13 @@
 # Pi-Server
 
-Use RaspiLite 64bit
+## Use RaspiLite 64bit
 ```
 sudo apt update && sudo apt dist-upgrade
 
 sudo apt install vim git
-
-Install Docker & Docker Compose
-
+```
+## Install Docker & Docker Compose
+```
 curl -sSL https://get.docker.com | sh
 
 sudo usermod -aG docker ${USER}
