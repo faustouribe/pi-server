@@ -1,7 +1,7 @@
 # Pi-Server
-```
-arm64
 
+Use RaspiLite 64bit
+```
 sudo apt update && sudo apt dist-upgrade
 
 Install Docker & Docker Compose
