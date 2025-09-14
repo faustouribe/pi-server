@@ -7,6 +7,7 @@ docker run -d \
   -e TZ=America/Chicago \
   -e FTLCONF_webserver_api_password="correct horse battery staple" \
   -e FTLCONF_dns_listeningMode=all \
+  -e FTLCONF_dns_upstreams="1.1.1.1;8.8.8.8;8.8.4.4" \
   -v /home/mrfox/config/piholev6/etc-pihole:/etc/pihole \
   -v /home/mrfox/config/piholev6/etc-dnsmasq.d:/etc/dnsmasq.d \
   --cap-add NET_ADMIN \
