@@ -4,9 +4,12 @@
 ```
 sudo apt update && sudo apt dist-upgrade
 
-sudo apt install figlet git neovim
+sudo apt install git neovim
 
 git clone https://github.com/faustouribe/pi-server.git
+
+wget https://github.com/arsham/figurine/releases/ (select file)
+
 ```
 ## Install Docker & Docker Compose
 ```
