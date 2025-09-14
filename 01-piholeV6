@@ -1,14 +1,14 @@
-docker run 
-  --name pihole 
-  -p 53:53/tcp 
-  -p 53:53/udp 
-  -p 80:80/tcp 
-  -p 443:443/tcp 
-  -e TZ=America/Chicago 
-  -e FTLCONF_webserver_api_password="correct horse battery staple" 
-  -e FTLCONF_dns_listeningMode=all 
-  -v /home/mrfox/config/piholev6/etc-pihole:/etc/pihole 
-  -v /home/mrfox/config/piholev6/etc-dnsmasq.d:/etc/dnsmasq.d 
-  --cap-add NET_ADMIN 
-  --restart unless-stopped 
+docker run -d \
+  --name pihole \ 
+  -p 53:53/tcp \
+  -p 53:53/udp \
+  -p 80:80/tcp \
+  -p 443:443/tcp \
+  -e TZ=America/Chicago \
+  -e FTLCONF_webserver_api_password="correct horse battery staple" \ 
+  -e FTLCONF_dns_listeningMode=all \
+  -v /home/mrfox/config/piholev6/etc-pihole:/etc/pihole \
+  -v /home/mrfox/config/piholev6/etc-dnsmasq.d:/etc/dnsmasq.d \
+  --cap-add NET_ADMIN \
+  --restart unless-stopped \
 pihole/pihole:latest
